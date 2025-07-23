@@ -10,3 +10,8 @@ terraform {
 provider "azurerm" {
   # Configuration options
 }
+
+resource "azurerm_resource_group" "braj" {
+  name     = "braj1"
+  location = "West Europe"
+}
